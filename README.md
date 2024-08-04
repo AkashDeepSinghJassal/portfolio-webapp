@@ -2,6 +2,7 @@
 
 A personal portfolio website built with Next.js to showcase projects and skills.
 [LINK](https:/portfolio-webapp-liard.vercel.app/)
+
 ## 💻 Tech Stack
 
 - Next.js
