@@ -18,8 +18,11 @@ const Bio = ({ secondary }) => (
       <Text>
         Software engineer with over two years of hands-on experience in leading
         impactful projects focused on AI-driven solutions for
-        <strong style={{ color: secondary }}>urban mobility</strong> and
-        <strong style={{ color: secondary }}>environmental conservation</strong>
+        <strong style={{ color: secondary }}> urban mobility</strong> and
+        <strong style={{ color: secondary }}>
+          {" "}
+          environmental conservation
+        </strong>
         .
       </Text>
       <Text>
