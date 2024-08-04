@@ -8,10 +8,8 @@ import links from "../data/footerLinks";
 import LinkIconBar from "./LinkIconBar";
 
 export default function Footer() {
-  
   return (
     <Box as="footer" mt={12} height="100%" textAlign="center" className="app">
-      
       <LinkIconBar links={links} />
     </Box>
   );

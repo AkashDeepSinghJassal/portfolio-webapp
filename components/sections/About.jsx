@@ -1,7 +1,6 @@
 import {
   GridItem,
   Image,
-  Link,
   SimpleGrid,
   Text,
   useBreakpointValue,
@@ -17,14 +16,20 @@ const Bio = ({ secondary }) => (
   <GridItem>
     <VStack m="auto" w="75%" spacing="12px" pt="5%">
       <Text>
-        Software engineer with over two years of hands-on experience in leading impactful projects focused on AI-driven solutions for <strong style={{ color: secondary }}>urban mobility</strong> and <strong style={{ color: secondary }}>environmental conservation</strong>.
+        Software engineer with over two years of hands-on experience in leading
+        impactful projects focused on AI-driven solutions for
+        <strong style={{ color: secondary }}>urban mobility</strong> and
+        <strong style={{ color: secondary }}>environmental conservation</strong>
+        .
       </Text>
       <Text>
-        Proven track record in spearheading the development and deployment of flagship applications aimed at optimizing traffic management and enhancing user experiences.
+        Proven track record in spearheading the development and deployment of
+        flagship applications aimed at optimizing traffic management and
+        enhancing user experiences.
       </Text>
       <Text>
-        I enjoy creating scalable & modular web applications that have a
-        real world impact.
+        I enjoy creating scalable & modular web applications that have a real
+        world impact.
       </Text>
     </VStack>
   </GridItem>

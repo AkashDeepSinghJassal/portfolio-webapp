@@ -46,7 +46,6 @@ const Logo = () => {
         src={logo}
         width="50"
         height="50"
-        
         onClick={scroll.scrollToTop}
       />
     </Box>
