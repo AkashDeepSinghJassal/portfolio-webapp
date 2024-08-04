@@ -25,7 +25,7 @@ export default function Landing() {
       <h1 className={styles.tagline} style={{ color: primary }}>
         {" "}
         a
-        <strong style={{ color: secondary }}> fullstack software engineer.</strong>
+        <strong style={{ color: secondary }}> backen software engineer.</strong>
       </h1>
     </div>
   );
