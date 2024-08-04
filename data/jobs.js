@@ -7,7 +7,7 @@ const jobs = [
       "Orchestrated the development of core backend APIs for Beltech’s flagship application, AIChallan, enabling real-time traffic violation monitoring and optimized traffic flow. Architected RESTful services seamlessly integrating with the frontend, facilitating dynamic data presentation.",
       "Enhanced user experience and streamlined ticketing processes by successfully integrating third party payment gateways (Razorpay and Paytm) into the AI Challan application, enabling instant fine payments for traffic violations",
       "Implemented Elasticsearch for geo-spatial and multi-filter queries, resulting in a significant reduction in query response times from 2 seconds to 0.02 seconds. This optimization enabled the generation of dynamic heat maps, aiding better traffic management decisions",
-      "Achieved over 90 percent code coverage through comprehensive unit and integration testing of AI Challan. Employed performance profiling tool to monitor and optimize CPU usage, memory consumption, and request handling efficiency, ensuring the reliability and robustness of the application."
+      "Achieved over 90 percent code coverage through comprehensive unit and integration testing of AI Challan. Employed performance profiling tool to monitor and optimize CPU usage, memory consumption, and request handling efficiency, ensuring the reliability and robustness of the application.",
     ],
     url: "https://www.beltech.ai/",
   },

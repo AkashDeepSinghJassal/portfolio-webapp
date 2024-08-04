@@ -31,7 +31,7 @@ module.exports = {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "no-implicit-coercion": "error",
-    "prettier/prettier": ["off"],
+    "prettier/prettier": ["error"],
   },
   overrides: [
     {

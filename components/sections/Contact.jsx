@@ -25,7 +25,7 @@ export default function Contact() {
         pr={4}
       >
         <Text fontSize="xl" m="auto" mt={6}>
-          Ready to collaborate? Drop a email for 
+          Ready to collaborate? Drop a email for
         </Text>
         <Text fontSize="xl" m="auto">
           job opportunities, meetups, or to get in touch!

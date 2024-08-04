@@ -15,16 +15,13 @@ const projects = [
   },
   {
     name: "Traffic Management Master Dashboard",
-    description:
-      `Control traffic signals remotely.
+    description: `Control traffic signals remotely.
       View of all traffic violations.
       Traffic and violation analytics.
       Customisable user authentication.`,
     pic: "/AIDashboard.png",
     tech: ["Node.js", "PostgreSQL", "Kafka", "ETL"],
-    links: [
-
-    ],
+    links: [],
   },
   {
     name: "Tourism AI",
@@ -37,7 +34,7 @@ const projects = [
         label: "Website",
         icon: "link",
         url: "https://www.beltech.ai/#/product#tourismplatform",
-      }
+      },
     ],
   },
 ];
@@ -90,10 +87,8 @@ export const extraProjects = [
     description:
       "Online examination platform,leveraging Role-Based Access Control with system security and and surveillance mechanisms build using TensorFlow",
     tech: ["Django", "MySQL", "Python"],
-    links: [
-      
-    ],
-  }
+    links: [],
+  },
 ];
 
 export default projects;
