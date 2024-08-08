@@ -14,6 +14,20 @@ const projects = [
     ],
   },
   {
+    name: "Web3Survey",
+    description:
+      "Web3Survey is a decentralized survey platform where creators can launch surveys by paying with SOL (Solana's cryptocurrency), and surveyors can participate in surveys to earn SOL.",
+    pic: "/web3survey.png",
+    tech: ["Node.js", "Postgres", "Next", "AWS", "SOL Ecosystem"],
+    links: [
+      {
+        label: "Github",
+        icon: "github",
+        url: "https://github.com/AkashDeepSinghJassal/web3survey",
+      },
+    ],
+  },
+  {
     name: "Traffic Management Master Dashboard",
     description: `Control traffic signals remotely.
       View of all traffic violations.
