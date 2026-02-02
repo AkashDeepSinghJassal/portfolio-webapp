@@ -1,5 +1,15 @@
 const jobs = [
   {
+    workplace: "Tekscend Photomask",
+    position: "Werkstudent Software Engineer",
+    duration: ["Mar 2025 - Present"],
+    description: [
+      "Built a Django internal workflow dashboard leveraging Oracle SQL to visualize heavy datasets, allowing users to filter data and trigger workflow actions directly from the UI",
+      "Automated application delivery via OCI tool Docker, Kubernetes’s deployment, and GitLab CI, streamlining release cycles and ensuring its stability across Dev and UAT environments"
+     ],
+    url: "https://www.photomask.com/en/",
+  },
+  {
     workplace: "Beltech AI",
     position: "Software Engineer",
     duration: ["July 2022 - May 2024"],
