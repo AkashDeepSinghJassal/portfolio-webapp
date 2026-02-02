@@ -1,6 +1,6 @@
 const jobs = [
   {
-    workplace: "Tekscend Photomask",
+    workplace: "Tekscend",
     position: "Werkstudent Software Engineer",
     duration: ["Mar 2025 - Present"],
     description: [
