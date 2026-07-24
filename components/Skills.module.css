@@ -1,0 +1,73 @@
+.section {
+  background:
+    radial-gradient(ellipse 60% 40% at 100% 0%, var(--accent-soft), transparent 55%),
+    linear-gradient(180deg, var(--bg), var(--bg-soft) 50%, var(--bg));
+}
+
+.group {
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+}
+
+.group:hover {
+  transform: translateY(-4px);
+  border-color: rgba(var(--accent-rgb), 0.45);
+  box-shadow: 0 16px 36px var(--btn-shadow);
+}
+
+.groups {
+  display: grid;
+  gap: 2rem;
+}
+
+.groupTitle {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bottom {
+  margin-top: 2.75rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.certs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.65rem;
+  color: var(--ink-muted);
+}
+
+.certs a {
+  color: var(--accent);
+  font-weight: 700;
+  border-bottom: 1px solid transparent;
+  transition: border-color 160ms ease;
+}
+
+.certs a:hover {
+  border-bottom-color: var(--accent);
+}
+
+@media (min-width: 800px) {
+  .groups {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}

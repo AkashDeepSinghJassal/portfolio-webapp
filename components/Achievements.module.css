@@ -1,0 +1,77 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.item {
+  background: var(--bg);
+  padding: 1.4rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.item:first-child {
+  border-top: none;
+}
+
+.title {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.detail {
+  margin: 0;
+  max-width: 40rem;
+  color: var(--ink-muted);
+  text-wrap: pretty;
+}
+
+@media (min-width: 800px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .item {
+    padding: 1.5rem 1.25rem 1.5rem 0;
+    border-top: none;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .item:nth-child(even) {
+    padding-left: 1.25rem;
+    padding-right: 0;
+    border-left: 1px solid var(--line);
+  }
+
+  .item:nth-last-child(-n + 2):nth-child(odd) {
+    border-bottom: none;
+  }
+
+  .item:nth-last-child(-n + 2):nth-child(even) {
+    border-bottom: none;
+  }
+
+  /* Odd count: last item full-width row, same app background */
+  .list[data-count="odd"] .item:last-child {
+    grid-column: 1 / -1;
+    padding-left: 0;
+    padding-right: 0;
+    border-left: none;
+    border-top: 1px solid var(--line);
+    border-bottom: none;
+    background: var(--bg);
+  }
+
+  .list[data-count="odd"] .item:nth-last-child(2),
+  .list[data-count="odd"] .item:nth-last-child(3) {
+    border-bottom: none;
+  }
+}
