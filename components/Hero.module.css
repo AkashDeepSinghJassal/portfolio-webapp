@@ -1,0 +1,166 @@
+.hero {
+  position: relative;
+  min-height: min(100svh, 920px);
+  display: grid;
+  align-items: center;
+  overflow: clip;
+  isolation: isolate;
+  padding-block: 6.5rem 4rem;
+  background:
+    radial-gradient(ellipse 70% 55% at 12% 18%, var(--hero-wash-a), transparent 55%),
+    radial-gradient(ellipse 55% 45% at 88% 12%, var(--hero-wash-b), transparent 50%),
+    linear-gradient(180deg, var(--bg) 0%, var(--hero-mid) 55%, var(--bg) 100%);
+  transition: background 280ms ease;
+}
+
+.atmosphere {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.orbOne,
+.orbTwo,
+.orbThree {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(8px);
+  opacity: 0.7;
+}
+
+.orbOne {
+  width: min(38vw, 320px);
+  height: min(38vw, 320px);
+  top: 12%;
+  right: 8%;
+  background: radial-gradient(circle, var(--orb-a), transparent 70%);
+}
+
+.orbTwo {
+  width: min(28vw, 220px);
+  height: min(28vw, 220px);
+  bottom: 18%;
+  left: 6%;
+  background: radial-gradient(circle, var(--orb-b), transparent 70%);
+}
+
+.orbThree {
+  width: min(20vw, 160px);
+  height: min(20vw, 160px);
+  top: 42%;
+  left: 42%;
+  background: radial-gradient(circle, var(--orb-c), transparent 70%);
+}
+
+.layout {
+  position: relative;
+}
+
+.content {
+  max-width: 44rem;
+}
+
+.identity {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--bg-soft);
+  box-shadow: 0 8px 24px var(--btn-shadow);
+}
+
+.role {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.6rem, 8vw, 5.1rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 0.95;
+  text-wrap: balance;
+}
+
+.tagline {
+  margin: 1.2rem 0 0;
+  max-width: 22ch;
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.line {
+  margin-top: 1.15rem;
+  height: 3px;
+  width: min(100%, 12rem);
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.intro {
+  margin: 1rem 0 0;
+  max-width: 38rem;
+  color: var(--ink-muted);
+  text-wrap: pretty;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.35rem;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social a {
+  color: var(--ink-muted);
+  font-size: 0.92rem;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+
+.social a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding-block: 5.5rem 3.25rem;
+    align-items: end;
+  }
+
+  .avatar {
+    width: 64px;
+    height: 64px;
+  }
+}
