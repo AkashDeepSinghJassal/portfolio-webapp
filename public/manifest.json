@@ -1,26 +1,15 @@
 {
-  "theme_color": "#90cdf4",
-  "background_color": "#252934",
-  "display": "standalone",
-  "scope": "/",
+  "name": "Akashdeep Singh Jassal",
+  "short_name": "Akashdeep",
+  "description": "Distributed software engineer portfolio",
   "start_url": "/",
-  "name": "Akashdeep Singh Jassal - Software Developer",
-  "short_name": "Akashdeep Singh Jassal",
-  "description": "Akashdeep Singh Jassal's portfolio",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#1ca7d0",
   "icons": [
     {
       "src": "/logo192.png",
       "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/logo256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "/logo384.png",
-      "sizes": "384x384",
       "type": "image/png"
     },
     {
