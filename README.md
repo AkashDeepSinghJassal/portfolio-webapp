@@ -1,33 +1,26 @@
 # Portfolio
 
-A personal portfolio website built with Next.js to showcase projects and skills.
-[LINK](https://portfolio-webapp-liard.vercel.app/)
+Personal portfolio for Akashdeep Singh Jassal — distributed software engineer.
+Built with Next.js (App Router, SSR) as a single-page site. Content lives in `config/`.
 
-## 💻 Tech Stack
+## Stack
 
-- Next.js
-- React
+- Next.js 14
+- React 18
+- TypeScript
 
-## 🛠️ Prerequisites
+## Setup
 
-- Node.js (v14 or later)
-- npm or Yarn
-
-## ⚙️ Installation
-
-1. Clone the repository:
-
-```
-git clone https://github.com/yourusername/portfolio-webapp.git
+```bash
+yarn
+yarn dev
 ```
 
-2. Install dependencies
-   - `yarn`
-3. Run the web server!
-   - `yarn dev`
+## Production
 
-## 🏗️ Building for Production
+```bash
+yarn build
+yarn start
+```
 
-- `yarn build`
-
-Import your project into Vercel. It will now have automated deployments on push.
+Deploy on Vercel for automated builds on push.
